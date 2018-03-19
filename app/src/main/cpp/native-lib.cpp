@@ -2,8 +2,10 @@
 #include <string>
 #include <sstream>
 
-std::stringstream ss;
-std::string output;
+using namespace std;
+
+stringstream ss;
+string output;
 bool increasing;
 int increment = 1;
 int maxStars;
